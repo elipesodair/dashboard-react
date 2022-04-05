@@ -29,7 +29,7 @@ function Home(props) {
   useEffect(() => {
     axios
       .get('/rest/atm/1.0/testrun/search?query=projectKey="LABPOS"', {
-        auth: { username: "elipes", password: "1=2villeiN" },
+        auth: { username: "elipes", password: "1=N" },
       })
       
       .then((res) => {
